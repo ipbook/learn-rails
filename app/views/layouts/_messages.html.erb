@@ -1,0 +1,7 @@
+<!--layout/_messages.html.erb START-->
+<% flash.each do |name, msg| %>
+  <% if msg.is_a?(String) %>
+    <%= content_tag :div, msg, :class => "flash_#{name}" %>
+  <% end %>
+<% end %>
+<!--layout/_messages.html.erb END-->
