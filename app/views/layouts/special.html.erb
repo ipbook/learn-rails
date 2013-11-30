@@ -1,0 +1,15 @@
+<!doctype>
+<html><head></head><body>special layout
+
+  <div id="bdl">
+  <%= yield %>
+  </div>
+  
+  <div id="bdr">
+  <%= yield :sidebar %>
+  </div>
+  
+  <%= render "layouts/special_sidebar2" %>
+  <%= render "/global_sidebar" %>
+  
+</body></html>
