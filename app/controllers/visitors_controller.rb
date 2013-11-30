@@ -8,8 +8,8 @@ class VisitorsController < ApplicationController
     #flash[:notice] = 'Welcome!'
     #flash[:alert] = 'My Birthday is soon.'
     #flash[:warning] = 'test warning'
-    flash.now[:notice] = 'Welcome!'
-    flash.now[:alert] = 'My Birthday is soon.'
+    #flash.now[:notice] = 'Welcome!'
+    #flash.now[:alert] = 'My Birthday is soon.'
     render 'visitors/new'
   end
 end
