@@ -10,6 +10,6 @@ class VisitorsController < ApplicationController
     #flash[:warning] = 'test warning'
     #flash.now[:notice] = 'Welcome!'
     #flash.now[:alert] = 'My Birthday is soon.'
-    render 'visitors/new'
+    ##render 'visitors/new'
   end
 end
